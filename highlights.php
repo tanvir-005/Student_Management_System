@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link href = "style.css" type = "text/css" rel = "stylesheet"> -->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Vice Chancellor</title>
+</head>
+<body>
+    <header>
+        <div class = "banner"><img src = "images/ix_banner.jpg" alt = "Banner Missing :(" class = "bannerimg"></div>
+        <div class = "statusbar">
+            <a href = "index.php">Home</a>
+            <a href = "about.php">About Us</a>
+            <a href = "gallery.php">Gallery</a>
+            <a href = "founder.php">Founder</a>
+            <a href = "vc.php">Vice Chancellor</a>
+            <a href = "highlights.php">Highlights</a>
+        </div>
+    </header>
+    <div class = "hlt">
+        <h1>Are you chilling?</h1>
+        <p>Ek tarikh theke porikkha. hehe.</p>
+    </div>
+    <div class = "hlt">
+        <h1>Make up class</h1>
+        <p>Did someone say weekend? Well, i like messing up things.</p>
+    </div>
+    <div class = "hlt">
+        <h1>Class time extended</h1>
+        <p>Ekhon theke sob class dui ghonta kore hobe.</p>
+    </div>
+</body>
+</html>
+
+<style type="text/css">
+
+body{
+    margin:0;
+    font-family: Roboto;
+    /*background-color:red;*/
+}header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 234, 234);
+}.statusbar{
+    display:flex;
+    justify-content:space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}.statusbar a{
+    background-color: #2a69a9;
+    width:16%;
+    height:30px;
+    border-style:none;
+    text-decoration: none;
+    color: white;
+    text-align:center;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}.banner{
+    text-align:center;
+}.bannerimg{
+    width: 100%;
+}.hlt{
+    width: 60%;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(234,234,234);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}.hlt h1{
+    font-size: 20px;
+}.hlt p{
+    font-size: 15px;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+</style>
